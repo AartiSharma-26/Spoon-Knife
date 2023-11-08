@@ -8,10 +8,26 @@
   width:384px;
   margin: 50px auto;
 }
-
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+header{
+  width:100%;
+  background-color: beige;
 }
+nav
+  ul 
+    li
+      a{
+        /* display:block; */
+        text-decoration: none;
+        color: black;
+        margin-top:20px;
+        padding-right:80px;
+        
+}
+nav
+  ul{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    list-style-type:none;
+    height:60px;
+  }
