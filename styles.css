@@ -3,31 +3,65 @@
   padding:0px;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
-}
+
 header{
   width:100%;
-  background-color: beige;
+  /* position: sticky;
+  top: 0px;  */
 }
-nav
-  ul 
+
+/* nav1 */
+.nav1
+    ul 
     li
       a{
-        /* display:block; */
         text-decoration: none;
-        color: black;
-        margin-top:20px;
-        padding-right:80px;
-        
-}
-nav
+      }
+
+.nav1
   ul{
     display:flex;
     justify-content: space-around;
     align-items:center;
     list-style-type:none;
-    height:60px;
+    height:40px;
+    background-color: rgb(7, 5, 5);
+    color: rgb(233, 233, 233);
   }
+
+  /* nav2 */
+
+.nav2{
+  background-color: rgb(255, 255, 255);
+}
+
+.nav2
+  ul{
+    display:flex;
+    justify-content:space-around;
+    align-items: flex-end;
+    list-style-type:none;
+  }
+
+.nav2
+  ul 
+    li
+      a{
+      display:block;
+      padding:15px 15px;
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+      }
+
+  /* crousel */
+
+.crousel h1{
+  position:absolute;
+  padding-top:200px;
+  padding-left:130px;
+  letter-spacing: 5px;
+  word-spacing: 8px;
+  line-height: 2;
+  font-size: 60px;
+}
