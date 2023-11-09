@@ -1,4 +1,4 @@
-### The Spoon-Knife Repository
+### The simple-site Repository
 
 This repository is meant to provide an example of how to create a simple web page and navbar using HTML and CSS.
 
