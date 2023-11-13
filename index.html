@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <title>Spoon-Knife</title>
   <LINK href="styles.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="menu-toggle.js"></script>
 </head>
 
 <body>
@@ -21,11 +22,9 @@
   </nav>
 
   <nav class="nav2">    
-    <!-- <h1 class="logo">Unfiltered Pixcel</h1></nav> -->
-    
     <ul>
-      <!-- <li class="logo">Unfiltered Pixcel</li> -->
       <img class="img-logo" src="https://pbs.twimg.com/media/ERuZaEvUcAESCvG?format=jpg&name=4096x4096" height="120px" width="240px">
+      <a class="menu-icon" href="" > ☰ </a>
       <li><a class="menu" href="#" >Home</a></li>
       <li><a class="menu" href="#">Products</a></li>
       <li><a class="menu" href="#">Contact Us</a></li>
@@ -34,11 +33,24 @@
     </ul>
 </nav>
 </header>
+
+<div id='display-items'>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Products</a></li>
+    <li><a href="#">Contact Us</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Log In</a></li>
+  </ul>
+</div>
+
 <div class="crousel">
-  <h1>SHOWCASE YOUR <br> PHOTOGRAPHY PASSION <br> WITH US ❤</h1>
+  <div class="data"> 
+    <h1 style="text-align: center;">SHOWCASE YOUR PHOTOGRAPHY SKILL WITH US ❤ <br>  </h1>
+    <!-- <div class="button"><a href="#">Explore</a></div> -->
+  </div> 
   <img src="https://st2.depositphotos.com/1021722/7053/i/950/depositphotos_70531635-stock-photo-art-spring-flowers-frame-background.jpg" alt="crousel" height="790x" width="100%">
 
 </div>
-
 </body>
 </html>
