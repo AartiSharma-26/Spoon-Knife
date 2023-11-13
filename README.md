@@ -16,7 +16,7 @@ You just need to
 
 
 
-
+![Screenshot 2023-11-13 150705](https://github.com/AartiSharma-26/Spoon-Knife/assets/149753911/7166f8d4-c3ba-4f7d-a44f-a4ad828352fa)
 After forking this repository, you can make some changes to the project, and submit [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) as practice.
 
 For some more information [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
